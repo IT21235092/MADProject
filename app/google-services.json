@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196280776961",
+    "project_id": "fir-realtimedatabase-feba5",
+    "storage_bucket": "fir-realtimedatabase-feba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196280776961:android:80209460d8f6d3f8134300",
+        "android_client_info": {
+          "package_name": "com.example.madproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196280776961-u8v85sk0fk7qe406is2ah2geaosbfqf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDApmc8UeVCSnhaoLyDL9f5fOP4hrcLZJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196280776961-u8v85sk0fk7qe406is2ah2geaosbfqf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

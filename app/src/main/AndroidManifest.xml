@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="JobLink"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".InsertionActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".FetchingActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".EmployeeDetailsActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".EmployeeDashBoard"
+            android:exported="true"/>
+        <activity
+            android:name=".CreateJob"
+            android:exported="true"/>
+
+        <activity
+            android:name=".DisplayJobs"
+            android:exported="true"/>
+        <activity
+            android:name=".JobDetailsActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobIT"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobHealth"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobGraphic"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobTechnical"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobMechanic"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobEducate"
+            android:exported="true"/>
+
+        <activity
+            android:name=".JobHome"
+            android:exported="true"/>
+
+        <activity
+            android:name=".RetrieveJobs"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CustomerEditProfileActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CustomerViewProfileActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CustomerRegisterActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CustomerDashBoard"
+            android:exported="true"/>
+
+        <activity
+            android:name=".DisplaypayHistory"
+            android:exported="true"/>
+        <activity
+            android:name=".PaymentDetailsActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CustomerHome"
+            android:exported="true"/>
+        <activity
+            android:name=".FeedInsertionActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".FeedFetchingActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".FeedFetchingEmployee"
+            android:exported="true"/>
+
+
+        <activity
+            android:name=".FeedBackDetailsActivity"
+            android:exported="true"/>
+
+            <activity
+                android:name=".CusLoginActivity"
+                android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
